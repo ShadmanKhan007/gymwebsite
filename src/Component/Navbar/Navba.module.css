@@ -1,0 +1,39 @@
+.Navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li{
+    display: inline-block;
+    padding-left: 2vw;
+    cursor: pointer;
+}
+
+.login{
+    margin-right: 20vw;
+}
+
+@media screen {
+    
+}
+
+.logo img{
+    width: 100px;
+    height: 85px;
+    background-color: black;
+    margin-left: 100px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}

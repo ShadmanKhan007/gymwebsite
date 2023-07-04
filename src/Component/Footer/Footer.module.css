@@ -1,0 +1,47 @@
+.Footer{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    padding-top: 50px;
+    background-color: #230715 ;
+    color: white;
+    font-size: 18px;
+}
+
+.div1{
+ 
+    width: 35vw;
+    padding-left: 10vw;
+}
+
+.div2{
+    width: 15vw;
+    margin-left: 50px;
+   
+}
+
+.div3{
+    width: 15vw;
+    margin-left: 50px;
+   
+}
+.div4{
+    width: 15vw;
+    margin-left: 50px;
+   
+}
+p{
+    cursor: pointer;
+}
+.icondiv{
+    margin-left: 40px;
+    font-size: 30px;
+    color: rgb(190, 77, 77);
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.icondiv a{
+    color: rgb(190, 77, 77);
+}
+

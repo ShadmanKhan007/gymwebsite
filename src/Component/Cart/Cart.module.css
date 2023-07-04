@@ -1,0 +1,19 @@
+.Cart{
+    background-color: #383737;
+    color: white;
+    display: flex;
+   
+}
+
+.Cart img{
+    height: 190px;
+    width: 240px;
+}
+.Cart h4,p{
+    margin-left: 40px;
+    color: white;
+}
+
+
+
+

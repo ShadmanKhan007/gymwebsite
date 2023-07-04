@@ -1,0 +1,46 @@
+.Login {
+    text-align: center;
+    margin-top: 100px;
+    /* background-color: #343436; */
+  }
+  
+  .inp {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    margin-top: 10px;
+  }
+  
+  .loginbtn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 276px;
+    border-radius: 0px;
+  }
+  label{
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .newUsers p{
+    margin-top: 20px;
+    margin-left: -120px;
+    color: black;
+    font-size: 14px;
+  }
+  input{
+    height: 40px;
+    width: 250px;
+    padding-left: 20px;
+    
+}

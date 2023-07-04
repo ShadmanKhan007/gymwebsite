@@ -1,0 +1,86 @@
+.Pricing{
+    background-color: #343436;
+    display: flex;
+}
+.secation1{
+    display: flex;
+    height: 100vh;
+    width: 50%;    
+}
+.div1{
+    height: 70%;
+    width: 37%;
+    margin-left: 120px;
+    margin-top: 100px;
+    color: white;
+    background-color: #282828;
+}
+.part1{
+    text-align: center;
+    margin-top: 30px;
+}
+.part1 h3{
+    margin-bottom:-10px;
+   
+   
+}
+.part1 h4{
+    color: green;
+    margin-top: -10px;
+}
+.part1 h4 span{
+    font-size: 60px;
+    font-weight: lighter;
+   
+}
+.part1 i{
+    
+}
+.part2 p{
+    margin-left: 30px;
+    font-weight: bold;
+    color: gray;
+}
+.get{
+    width: 200px;
+    border-radius: 0px;
+    color: gray;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+.get2{
+    width: 200px;
+    height: 50px;
+    border-radius: 0px;
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    margin-left: 23px;
+    margin-top: 40px;
+}
+
+
+.div2{
+    height: 80%;
+    width: 37%;
+    margin-left: 50px;
+    margin-top: 70px;
+    color: gray;
+    background-color: white;
+}
+
+.secation2{
+    color: white;
+    width: 40%;
+    margin-top: 70px;
+}
+.secation2 h3{
+    margin-left: 40px;
+    font-weight: lighter;
+}
+.secation2 p{
+    margin-left: 40px;
+    color: rgb(150, 148, 148);
+}
