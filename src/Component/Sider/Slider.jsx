@@ -2,9 +2,9 @@ import { useEffect } from "react"
 import styles from "./Slider.module.css"
 import { useState } from "react"
 let poster=[
-  {id:1,url:"https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
-  {id:2,url:"https://images.pexels.com/photos/116077/pexels-photo-116077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
-  {id:3,url:"https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
+  {id:1,url:"https://images.pexels.com/photos/5327483/pexels-photo-5327483.jpeg?auto=compress&cs=tinysrgb&w=1360&h=750&dpr=1"},
+  {id:2,url:"https://images.pexels.com/photos/5327467/pexels-photo-5327467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
+  {id:3,url:"https://images.pexels.com/photos/5327458/pexels-photo-5327458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
   ]
 
 const Slider =()=>{

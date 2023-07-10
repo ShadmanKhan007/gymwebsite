@@ -6,12 +6,14 @@ const Pricing =()=>{
     return (
         <div className={styles.Pricing}>
          <div className={styles.secation1}>
+
           <div className={styles.div1}>
             <div className={styles.part1}>
              <h3>Day Pass</h3>
               <h4>$ <span>20</span> </h4>
                <i>/ pass</i>
             </div>
+           
             <div className={styles.part2}>
                 <p><FiCheckCircle /> 1 day pass</p>
                 <p><FiCheckCircle /> free gym Access</p>
@@ -19,6 +21,7 @@ const Pricing =()=>{
                 <button className={styles.get}>Get Started</button>
             </div>
          </div>
+         
          <div className={styles.div2}>
          <div className={styles.part1}>
              <h3>Month To Month</h3>
@@ -35,6 +38,7 @@ const Pricing =()=>{
             </div>
          </div>
         </div>
+
         <div className={styles.secation2} >
            <p>Mambership</p>
            <h3>From punnch pass to Monthly or Annual</h3>

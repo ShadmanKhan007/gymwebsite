@@ -13,17 +13,42 @@
     font-size: 18px;
 }
 
-li{
-    display: inline-block;
+
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     padding-left: 2vw;
     cursor: pointer;
+    width: 100vw;
+
+}
+a{
+    color: white;
+}
+a:Link{
+    text-decoration: none;
 }
 
+.link2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 2vw;
+    cursor: pointer;
+    margin-top: 60vh;
+    padding: 20px;
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    background-color: green;
+    background-color: rgba(26, 25, 25, 0.3);
+}
 .login{
-    margin-right: 20vw;
-}
-
-@media screen {
+    /* margin-right: 2vw; */
+    margin-left: 20vw;
     
 }
 
@@ -31,9 +56,39 @@ li{
     width: 100px;
     height: 85px;
     background-color: black;
-    margin-left: 100px;
+    margin-left: 1vw;
 }
 li a{
     color: white;
     text-decoration: none;
+}
+.iconbar{
+    display: none;
+}
+
+
+@media only screen and (max-width : 580px) {
+      
+        .link{
+            display: none;  
+        }
+        .logo img{
+            width: 100px;
+            height: 85px;
+            background-color: black;
+            
+        }
+        .login{
+            /* display: none; */
+        }
+        .iconbar{
+            margin-right: 50px;
+            display: block;
+            font-size: 30px;
+        }
+        .iconbar2{
+            margin-right: 50px;
+            display: none;
+            font-size: 30px; 
+        }
 }

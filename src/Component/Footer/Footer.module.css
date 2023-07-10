@@ -2,44 +2,38 @@
     height: 50vh;
     width: 100vw;
     display: flex;
-    padding-top: 50px;
+    padding-top: 15vh;
     background-color: #230715 ;
     color: white;
     font-size: 18px;
 }
 
+
 .div1{
- 
-    width: 35vw;
-    padding-left: 10vw;
+    width: 40vw;
+    padding-left: 1vw;
 }
 
 .div2{
     width: 15vw;
-    margin-left: 50px;
-   
 }
 
 .div3{
     width: 15vw;
-    margin-left: 50px;
-   
 }
 .div4{
-    width: 15vw;
-    margin-left: 50px;
-   
+    width: 15vw;  
 }
 p{
     cursor: pointer;
 }
 .icondiv{
-    margin-left: 40px;
+    padding-left: 3vw;
     font-size: 30px;
     color: rgb(190, 77, 77);
     display: flex;
-    gap: 20px;
-    margin-top: 40px;
+    gap: 2vw;
+    margin-top: 10vh;
 }
 .icondiv a{
     color: rgb(190, 77, 77);

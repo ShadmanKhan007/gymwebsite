@@ -2,15 +2,18 @@ import styles from "./About.module.css"
 const About =()=>{
     return (
         <div className={styles.About}>
+
           <div className={styles.div1}>
+
            <div className={styles.videoSection1}>
-           <iframe width="480" height="315" 
+           <iframe  
            src="https://www.youtube.com/embed/Yko3GMseY40" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>   
             </iframe> 
            </div>
+
            <div className={styles.aboutSection1}>
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste veritatis! Facere alias velit harum ducimus. Omnis velit temporibus cupiditate voluptate perspiciatis veritatis qui aperiam corrupti, necessitatibus molestias beatae. Perspiciatis.</p>

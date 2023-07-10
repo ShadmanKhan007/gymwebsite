@@ -41,6 +41,9 @@
   input{
     height: 40px;
     width: 250px;
-    padding-left: 20px;
-    
+    padding-left: 20px;   
+}
+.newUsers p a{
+  color: blue;
+  font-size: 14px;
 }
